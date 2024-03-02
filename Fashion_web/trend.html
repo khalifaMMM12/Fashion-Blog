@@ -42,40 +42,67 @@
   <div class="container mt-4">
     <h2 class="mb-4">Latest Trends</h2>
 
+    <div class="row mt-4">
+      <div class="col-12">
+        <ul class="nav nav-pills mb-3">
+          <li class="nav-item">
+            <a class="nav-link active" id="male-tab" data-toggle="pill" href="#male-products">Male Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="female-tab" data-toggle="pill" href="#female-products">Female Products</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+    <!-- Male Products Section -->
     <div class="row">
-      <div class="col-md-4 mb-4">
-        <div class="card">
-          <img src="https://via.placeholder.com/300" alt="Product 1" class="card-img-top">
-          <div class="card-body">
-            <h5 class="card-title">Product 1</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <a href="#" class="btn btn-primary">View Details</a>
+      <div class="col-12">
+        <div class="tab-content">
+          <div class="tab-pane fade show active" id="male-products">
+            <h3>Male Products</h3>
+            
+            <div class="col-md-4 mb-4">
+              <div class="card">
+                <img src="https://via.placeholder.com/300" alt="Female Product 1" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Female Product 1</h5>
+                  <p class="card-text">
+                    Vestibulum scelerisque tortor vel sapien tempus, vel laoreet ligula fringilla.
+                    Integer bibendum lacus a fermentum cursus.
+                  </p>
+                  <p class="card-text"><strong>Price:</strong> $59.99</p>
+                  <p class="card-text"><strong>Color:</strong> Blue</p>
+                  <a href="#" class="btn btn-primary">View Details</a>
+              </div>
+            </div>
+    
+            <!-- Add more male product cards as needed -->
+    
           </div>
         </div>
       </div>
-
-      <div class="col-md-4 mb-4">
-        <div class="card">
-          <img src="https://via.placeholder.com/300" alt="Product 2" class="card-img-top">
-          <div class="card-body">
-            <h5 class="card-title">Product 2</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <a href="#" class="btn btn-primary">View Details</a>
+    </div>
+    
+    <!-- Female Products Section -->
+    <div class="row">
+      <div class="col-12">
+        <div class="tab-content">
+          <div class="tab-pane fade" id="female-products">
+            <h3>Female Products</h3>
+            
+            <div class="col-md-4 mb-4">
+              <div class="card">
+                <!-- ... (female product card) -->
+              </div>
+            </div>
+    
+            <!-- Add more female product cards as needed -->
+    
           </div>
         </div>
       </div>
-
-      <div class="col-md-4 mb-4">
-        <div class="card">
-          <img src="https://via.placeholder.com/300" alt="Product 3" class="card-img-top">
-          <div class="card-body">
-            <h5 class="card-title">Product 3</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <a href="#" class="btn btn-primary">View Details</a>
-          </div>
-        </div>
-      </div>
-
+    </div>
       <!-- Add more product cards as needed -->
 
     </div>
