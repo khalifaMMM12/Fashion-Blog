@@ -1,5 +1,6 @@
 /* body {
-
+  background-color: rgb(146, 137, 137);
+  color: white;
   } */
   
 footer {
@@ -51,5 +52,13 @@ footer {
   .cta-btn:hover {
     background-color: #28a745;
     color: #ffffff;
+  }
+
+  .card {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateX(-10px);
   }
   
