@@ -61,4 +61,106 @@ footer {
   .card:hover {
     transform: translateX(-10px);
   }
+
+  /* Updated styles.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* Navigation styles */
+.navbar {
+  background-color: #343a40;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #ffffff;
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-color: #ffffff;
+}
+
+/* Header styles */
+.header {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 3rem;
+}
+
+/* Common section styles */
+.section {
+  margin: 40px 0;
+}
+
+/* Gallery styles */
+.gallery-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.card {
+  transition: transform 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateX(-10px);
+}
+
+.card-img-top {
+  max-height: 200px;
+  object-fit: cover;
+}
+
+/* Products styles */
+.products-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* About Us styles */
+.about-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Contact Us styles */
+.contact-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+button {
+  width: 100%;
+}
+
+/* Footer styles */
+.footer {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+}
+
   
