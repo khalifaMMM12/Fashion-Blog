@@ -109,14 +109,14 @@ body {
 .card {
   transition: transform 0.3s ease-in-out;
   overflow: hidden;
+  /* height: 300px; */
 }
 
 .card:hover {
   transform: translateX(-10px);
 }
 
-.card-img-top {
-  max-height: 200px;
+.card-img {
   object-fit: cover;
 }
 
