@@ -1,9 +1,14 @@
-/* Add this to your existing style.css */
-
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #ffffff;
     color: #000000;
+  }
+
+  .container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); 
   }
   
   .navbar {
@@ -71,11 +76,19 @@ body {
     text-align: center;
   }
   
-  /* Animation for dropping images */
+
   .animate-drop {
     animation: drop 0.5s ease-in-out;
   }
   
+  a {
+    transition: color 0.3s;
+  }
+  
+  a:hover {
+    color: #007bff;
+  }
+
   @keyframes drop {
     from {
       transform: translateY(-20px);
