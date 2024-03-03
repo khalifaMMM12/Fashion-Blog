@@ -31,7 +31,7 @@ body {
     margin-bottom: 30px;
   }
   
-  .img-fluid {
+  /* .img-fluid {
     border-radius: 10px;
     transition: transform 0.3s ease-in-out;
     display: block;
@@ -40,7 +40,7 @@ body {
   
   .img-fluid:hover {
     transform: scale(1.1);
-  }
+  } */
   
   .featured-section, .cta-section {
     background-color: #000000;
